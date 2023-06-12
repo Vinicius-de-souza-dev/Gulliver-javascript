@@ -12,32 +12,31 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid p-3 mb-2 bg-dark text-white">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./image/logo.png" height="40"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <a class="navbar-brand  bg-dark collapse navbar-collapse m-0">
-                <img src="./image/logo.png" alt="Logo" width="140" height="40" class="d-inline-block align-text-top">
-            </a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav" style="margin-right:auto;margin-left: 30vw;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Lugares</a>
+                        <a class="nav-link" aria-current="page" href="#">Lugares</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Hospedagem</a>
+                    <li>
+                        <a class="nav-link" href="#">Hospedagem</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Recomendados</a>
+                    <li>
+                        <a class="nav-link" href="#">Recomendados</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-0" type="search" placeholder="Search" aria-label="Search">
-                    <button type="button" class="btn bg-warning"><img width="30" height="30"
-                            src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1" /></button>
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                    <a class="botao btn-warning" type="submit"
+                        style="margin:0 0 0 -5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;display: flex;align-items: center;justify-content: center;width: 3vw;"
+                        height="38"><img width="30" height="30" src="./image/procurar.png"></a>
                 </form>
             </div>
         </div>
